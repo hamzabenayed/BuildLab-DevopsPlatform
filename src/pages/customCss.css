@@ -1,0 +1,34 @@
+.badgeee  {
+    
+    background-color: #cc3c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.querryBtn {
+    font-size: 30px;
+    width: 350px;
+    height: 80px;
+}
+
+@media screen and (max-width: 600px)  {
+    .badgeee  {
+        transform: scale(0.8);
+    }
+
+    .mediaQueryFont {
+        font-size: 0.8em;
+    }
+
+    .querryBtn {
+        font-size: 24px;
+        width: 300px;
+        height: 70px;
+    }
+    
+
+}
